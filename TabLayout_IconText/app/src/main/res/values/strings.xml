@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">TabLayout_IconText</string>
+    <string name="Fragment_One">Fragment One</string>
+    <string name="Fragment_Two">Fragment Two</string>
+    <string name="Fragment_Three">Fragment Three</string>
+</resources>
