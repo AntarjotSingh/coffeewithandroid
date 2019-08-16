@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Volley_Json</string>
+    <string name="odata_response">OData Response:</string>
+    <string name="get_response">Get Result</string>
+</resources>
