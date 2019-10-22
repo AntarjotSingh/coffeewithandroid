@@ -1,9 +1,0 @@
-<resources>
-    <string name="app_name">ExoPlayerDemo</string>
-    <string name="play">Play</string>
-    <string name="stop">Stop</string>
-    <string name="pause">Pause</string>
-    <!-- Notifications -->
-    <string name="default_channel_name">Media Player Channel</string>
-    <string name="default_channel_description">This notification channel is used for Media</string>
-</resources>
