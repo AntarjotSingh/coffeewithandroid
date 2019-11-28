@@ -62,7 +62,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun resumeSound(sound: Int) {
-        soundPool.pause(soundMap[sound]!!)
+        soundPool.resume(soundMap[sound]!!)
     }
 
     fun toggleState(soundFile: SoundFile, sound: Int) {
@@ -83,13 +83,13 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun loadSounds(){
-        soundMap.put(SOUND1, soundPool.load(assets.openFd("flash_beep.mp3"), 1))
+        soundMap.put(SOUND1, soundPool.load(assets.openFd("sample1.mp3"), 1))
         soundFile1 = SoundFile(soundMap[SOUND1]!!)
-        soundMap.put(SOUND2, soundPool.load(assets.openFd("flash_beep.mp3"), 1))
+        soundMap.put(SOUND2, soundPool.load(assets.openFd("sample2.mp3"), 1))
         soundFile2 = SoundFile(soundMap[SOUND2]!!)
-        soundMap.put(SOUND3, soundPool.load(assets.openFd("flash_beep.mp3"), 1))
+        soundMap.put(SOUND3, soundPool.load(assets.openFd("sample3.mp3"), 1))
         soundFile3 = SoundFile(soundMap[SOUND3]!!)
-        soundMap.put(SOUND4, soundPool.load(assets.openFd("flash_beep.mp3"), 1))
+        soundMap.put(SOUND4, soundPool.load(assets.openFd("sample4.mp3"), 1))
         soundFile4 = SoundFile(soundMap[SOUND4]!!)
     }
 
