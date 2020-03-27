@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
     private ProgressBar progressBar;
     private TextView txtdata;
     private Button btngetresult;
-    public static String URL = "http://services.odata.org/V4/(S(mkqdgwdxd0nd1f2nuhz30r2d))/TripPinServiceRW/";
+    public static String URL = "https://services.odata.org/V4/(S(mkqdgwdxd0nd1f2nuhz30r2d))/TripPinServiceRW/";
     private VolleySingleton volleySingleton;
     private RequestQueue requestQueue;
     MyApplication myApplication = (MyApplication) MyApplication.getAppContext();
@@ -47,6 +47,8 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 progressBar.setVisibility(View.VISIBLE);
                 parseData();
+
+
             }
         });
     }
